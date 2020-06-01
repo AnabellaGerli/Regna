@@ -1,0 +1,111 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: 	#FFC0CB;
+}
+
+.logo{
+    padding: 10px 15px;
+}
+
+.nav-menu{
+    padding: 10px 15px;
+    }
+
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+#home{
+    height: 700px;
+    width: 100%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c664d08-fdc1-439e-8482-6f82fb643f21/d8zdbco-0a76aaab-6e1a-4e5f-92dd-dd2b2625d2b7.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi85YzY2NGQwOC1mZGMxLTQzOWUtODQ4Mi02ZjgyZmI2NDNmMjEvZDh6ZGJjby0wYTc2YWFhYi02ZTFhLTRlNWYtOTJkZC1kZDJiMjYyNWQyYjcuanBnIn1dXX0.z_67Zwm5kNCtvbl3cIR7ch4WTWA0O6sbkgYftavfgmw);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-started{
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 5px 10px;    
+}
+
+#about-us{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.about-us-text{
+    padding: 20px 20px 20px 150px;
+
+}
+
+.icon-box{
+    display: flex ;
+    flex-direction: row;
+    
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px ;
+    
+    color: #2dc997;
+    border: 2px solid #2dc997;
+    border-radius: 50%;
+
+}
+
+.about-us-image{
+    height: 600px;
+    width: 500px;
+    padding: 20px 150px 20px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.about-us-image img{
+    height: auto;
+    width: 100%;
+    border-radius: 10%;
+
+}
+
+
+
