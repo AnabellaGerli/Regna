@@ -1,7 +1,10 @@
 body{
-    box-sizing: border-box;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 header{
@@ -14,6 +17,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     background: 	#FFC0CB;
+    z-index: 1;
 }
 
 .logo{
@@ -39,6 +43,7 @@ header{
     flex-direction: column;
     justify-content: center;
 }
+
 .title{
     display: flex;
     flex-direction: column;
@@ -64,17 +69,24 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    padding: 0px 20px;
 }
+
 .about-us-text{
-    padding: 20px 20px 20px 150px;
+    width: 50%;
+    padding: 20px 20px 20px 50px;
 
 }
 
 .icon-box{
     display: flex ;
     flex-direction: row;
-    
+    align-items: center;
+}
+
+.icon-text{
+    height: 120px;
+    padding: 0px 10px;
 }
 
 .icon{
@@ -83,7 +95,7 @@ header{
     align-items: center;
     height: 70px;
     width: 70px ;
-    
+    font-size: 20px;
     color: #2dc997;
     border: 2px solid #2dc997;
     border-radius: 50%;
@@ -92,20 +104,82 @@ header{
 
 .about-us-image{
     height: 600px;
-    width: 500px;
-    padding: 20px 150px 20px 20px;
+    width: 50%;
+    padding: 20px 50px 20px 20px;
     display: flex;
     align-items: center;
 
 }
 
-
 .about-us-image img{
     height: auto;
     width: 100%;
     border-radius: 10%;
+}
+
+#facts{
+    height: 400px;
+    width: 100%;
+    background: #E8E8E8;
+}
+
+.facts-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services{
+    height: 700px;
+    width: 100%;
+}
+
+.services-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-box{
+    padding: 0px 100px;
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background: #F5F5F5;
+    border: 2px solid gray;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    margin: 20px 20px;
+    padding: 0px 20px;
 
 }
 
+.icon-box{
+    position: absolute;
+    top: -20px;
+    left: center;
+    background: #2dc997;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
 
-
+.icon-box i{
+    color: white;
+    font-size: 20px;
+    
+}
