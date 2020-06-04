@@ -164,7 +164,7 @@ header{
 
 }
 
-.icon-box{
+.icon-box-box{
     position: absolute;
     top: -20px;
     left: center;
@@ -178,8 +178,40 @@ header{
     align-items: center;   
 }
 
-.icon-box i{
+.icon-box-box i{
     color: white;
     font-size: 20px;
     
+}
+
+#call-to-action{
+    background-image: url(https://www.maldronhotels.com/wp-content/uploads/2019/08/gabriele-diwald-Kwi60PbAM9I-unsplash-320x400.jpg);
+    height: 300px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 150px;
+}
+.call-text{
+    width: 1000px;
+}
+
+.call-text h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.call-button {
+    border: 3px solid white;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.call-button a{
+    text-decoration: none;
+    color: white;
 }
