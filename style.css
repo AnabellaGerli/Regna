@@ -215,3 +215,34 @@ header{
     text-decoration: none;
     color: white;
 }
+
+
+
+#portfolio{
+    height: 500px;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.portfolio-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.portfolio-filters ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.portfolio-filters li{
+    padding: 10px 22px;
+    border-radius: 4px;
+    color: #666666;
+    background: white;
+    margin: 0px 10px;
+
+}
