@@ -120,7 +120,7 @@ header{
 #facts{
     height: 400px;
     width: 100%;
-    background: #E8E8E8;
+    background: #f7f7f7;
 }
 
 .facts-text{
@@ -148,7 +148,7 @@ header{
 }
 
 .box{
-    background: #F5F5F5;
+    background: #f7f7f7;
     border: 2px solid gray;
     position: relative;
     display: flex;
@@ -290,4 +290,64 @@ h5{
     margin-bottom: 1px;
     font-weight: 700;
     font-size: 18px;
+}
+
+
+#contact{
+    background: #f7f7f7;
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.contact-map{
+    height: 400px;
+    width: 100%;
+
+}
+.contact-map img{
+    height: 100%;
+    width: auto;
+}
+.contact-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+.contact-form{
+    margin: 15px 20px;
+}
+
+input{
+    height: 30px;
+    width: 400px;
+}
+
+textarea{
+    height: 70px;
+    width: 400px;
+}
+
+.contact-end button{
+    background: #2dc997;
+    border: 0;
+    color: white;
+    padding: 5px 10px;
+} 
+
+
+
+
+.info i{
+    color: #2dc997;
+ 
+    }
+
+.social-link i{
+    color: black;
 }
