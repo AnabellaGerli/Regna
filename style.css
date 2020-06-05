@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 *{
@@ -16,7 +16,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: 	#FFC0CB;
+    background: #FFC0CB;
     z-index: 1;
 }
 
@@ -34,6 +34,15 @@ header{
     font-size: 20px;
     padding: 0px 20px;
 }
+
+
+.nav-menu a:hover{
+    text-decoration: white underline;
+
+
+}
+
+
 
 #home{
     height: 700px;
@@ -345,9 +354,20 @@ textarea{
 
 .info i{
     color: #2dc997;
- 
-    }
+     }
 
 .social-link i{
     color: black;
+}
+
+.info-detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.info-detail p{ 
+    margin: 5px 20px;
 }
