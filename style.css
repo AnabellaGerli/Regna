@@ -260,11 +260,9 @@ animation-duration: 1s ;}
 }
 
 .icon-box-box:hover a{
-    color: #2dc997;
+    color: #2dc997 ;
     
 }
-
-
 
 #call-to-action{
     background-image: url(https://www.maldronhotels.com/wp-content/uploads/2019/08/gabriele-diwald-Kwi60PbAM9I-unsplash-320x400.jpg);
@@ -278,26 +276,42 @@ animation-duration: 1s ;}
     align-items: center;
     padding: 0px 150px;
 }
+
 .call-text{
     width: 1000px;
+    padding: 0px 20px;
+}
+
+.call-text p{
+    color: white;
+    font-size: 16px;
 }
 
 .call-text h3{
     font-size: 28px;
     font-weight: 700;
+    color: white;
 }
 
 .call-button {
     border: 3px solid white;
     border-radius: 50px;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 
 .call-button a{
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
 }
 
+.call-button:hover{
+    background-color: #2dc997;
+    transition: 0.3s;
+    border: 2px solid #2dc997;
+}
 
 
 #portfolio{
@@ -326,6 +340,12 @@ animation-duration: 1s ;}
     background: white;
     margin: 0px 10px;
 
+}
+
+.portfolio-filters li:hover{
+    background-color: #2dc997;
+    color: white;
+    transition: 0.2s;
 }
 
 #team{
@@ -369,6 +389,10 @@ animation-duration: 1s ;}
     font-size: 20px;
 }
 
+.social-media i:hover{
+    color: #2dc997;
+}
+
 h5{
     margin-bottom: 1px;
     font-weight: 700;
@@ -409,21 +433,21 @@ h5{
 input{
     height: 30px;
     width: 400px;
+    border: 1px solid #ced4da;
 }
 
 textarea{
     height: 70px;
     width: 400px;
+    border: 1px solid #ced4da;
 }
 
 .contact-end button{
     background: #2dc997;
     border: 0;
     color: white;
-    padding: 5px 10px;
+    padding: 10px 24px;
 } 
-
-
 
 
 .info i{
@@ -431,7 +455,16 @@ textarea{
      }
 
 .social-link i{
-    color: black;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.social-link i:hover{
+    background-color: #2dc997;
+
 }
 
 .info-detail{
