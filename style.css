@@ -46,6 +46,10 @@ header{
     height: 700px;
     width: 100%;
     background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c664d08-fdc1-439e-8482-6f82fb643f21/d8zdbco-0a76aaab-6e1a-4e5f-92dd-dd2b2625d2b7.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi85YzY2NGQwOC1mZGMxLTQzOWUtODQ4Mi02ZjgyZmI2NDNmMjEvZDh6ZGJjby0wYTc2YWFhYi02ZTFhLTRlNWYtOTJkZC1kZDJiMjYyNWQyYjcuanBnIn1dXX0.z_67Zwm5kNCtvbl3cIR7ch4WTWA0O6sbkgYftavfgmw);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -267,6 +271,10 @@ animation-duration: 1s ;}
 #call-to-action{
     background-image: url(https://www.maldronhotels.com/wp-content/uploads/2019/08/gabriele-diwald-Kwi60PbAM9I-unsplash-320x400.jpg);
     height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     color: white;
     font-size: 20px;
