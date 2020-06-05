@@ -97,6 +97,11 @@ h3{
     font-weight: 700;
     font-size: 32px;
     color: #111;
+    margin-bottom: 2px;
+}
+
+p{
+    color: #666666;
 }
 
 h4{
@@ -117,7 +122,6 @@ h4{
 .about-us-text{
     width: 50%;
     padding: 20px 20px 20px 50px;
-    color: #666666;
 }
 
 .about-us-text h3{
@@ -195,49 +199,71 @@ animation-duration: 1s ;}
     padding: 20px;
 }
 
+.services-box h4{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.services-box p{
+   text-align: center;
+    font-size: 14px;
+}
+
 .services-box{
+    margin-top: 10px;
     padding: 0px 100px;
     display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
 }
 
 .box{
-    background: #f7f7f7;
-    border: 2px solid gray;
+    background: #fafafa;
+    border: 1px solid #e6e6e6;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 200px;
-    width: 300px;
+    width: 350px;
     margin: 20px 20px;
-    padding: 0px 20px;
+    padding: 30px 20px;
 
 }
 
 .icon-box-box{
     position: absolute;
-    top: -20px;
+    top: -36px;
     left: center;
     background: #2dc997;
-    height: 40px;
-    width: 40px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
+    border: 6px solid #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;   
 }
 
-.icon-box-box i{
-    color: white;
-    font-size: 20px;
+.icon-box-box:hover{
+    background-color: white;
+    border: 2px solid #2dc997;
     
 }
+
+
+.icon-box-box a{
+    color: white;
+    font-size: 24px; 
+}
+
+.icon-box-box:hover a{
+    color: #2dc997;
+    
+}
+
 
 
 #call-to-action{
