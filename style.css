@@ -93,19 +93,35 @@ color: white;
 transition: 0.5s;
 }
 
+h3{
+    font-weight: 700;
+    font-size: 32px;
+    color: #111;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 2px;
+    color: #111;
+}
 #about-us{
     height: 700px;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px 20px;
+    padding: 0px 150px;
 }
 
 .about-us-text{
     width: 50%;
     padding: 20px 20px 20px 50px;
+    color: #666666;
+}
 
+.about-us-text h3{
+    color: #333;
 }
 
 .icon-box{
@@ -119,12 +135,16 @@ transition: 0.5s;
     padding: 0px 10px;
 }
 
+.icon-text p{
+    margin-top: 0;
+}
+
 .icon{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
-    width: 70px ;
+    width: 100px ;
     font-size: 20px;
     color: #2dc997;
     border: 2px solid #2dc997;
@@ -133,17 +153,24 @@ transition: 0.5s;
 }
 
 .about-us-image{
-    height: 600px;
+    height: 500px;
     width: 50%;
-    padding: 20px 50px 20px 20px;
     display: flex;
     align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
 
+.about-us-image { animation-name: move;
+animation-duration: 1s ;}
+@keyframes move{
+    0% {left: 100%;}
+    100% {left: 0;}
 }
 
 .about-us-image img{
-    height: auto;
-    width: 100%;
+    height: 100%;
+    width: auto;
     border-radius: 10%;
 }
 
