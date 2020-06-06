@@ -630,4 +630,7 @@ textarea{
   margin: 10px;
 
     }
+    #home{
+        background-attachment: scroll;
+    }
 }
