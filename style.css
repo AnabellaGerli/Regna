@@ -24,6 +24,9 @@ header{
     padding: 10px 15px;
 }
 
+.menu-logo{
+    display: none;
+}
 .nav-menu{
     padding: 10px 15px;
     }
@@ -359,10 +362,12 @@ animation-duration: 1s ;}
 #team{
     height: 500px;
     width: 100%;
+    padding-top: 20px;
 }
 
 .team-text{
     text-align: center;
+  
 }
 
 .team-pictures{
@@ -433,7 +438,6 @@ h5{
     padding-top: 10px;
 }
 
-
 .contact-form{
     margin: 15px 20px;
 }
@@ -456,7 +460,6 @@ textarea{
     color: white;
     padding: 10px 24px;
 } 
-
 
 .info i{
     color: #2dc997;
@@ -485,4 +488,146 @@ textarea{
 
 .info-detail p{ 
     margin: 5px 20px;
+}
+
+
+
+@media (max-width:1400px) {
+    #about-us{
+        height: 700px;
+        padding: 0px 50px;
+    }
+    .about-us-text{
+        width: 50%;
+        padding: 20px 20px 20px 20px;
+    }
+    #services{
+        height: 1000px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .nav-menu{
+        display: none;
+    }
+    .menu-logo{
+    display: block;
+    height: auto;
+    width: 50px;
+}
+    .menu-logo img{
+    height: 100%;
+    width: auto;
+}
+    .title{
+    text-align: center;
+}
+    #about-us{
+        height: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 5px;
+    }
+    .about-us-text{
+        width: 75%;
+        padding: 0px 0px
+    }
+    .about-us-image{
+        height: 300px;
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    @keyframes move{
+        0% {top: 100%;}
+        100% {top: 0;}
+    }
+    #services{
+        height: 1500px;
+    }
+    .box {
+        height: 175px;
+        width: 750px;
+    }
+
+    #team{
+        height: 1000px;
+    }
+    .team-pictures{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .employee{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 700px) {
+    #call-to-action{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .call-text{
+        width: 100%;
+    }
+    .contact-map{
+        height: 200px;
+        width: 100%;
+    }
+    .contact-end{
+        flex-direction: column;
+        align-items: center;
+    }
+    input{
+        width: 300px;
+    }
+    textarea{
+        width: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #about-us{
+        height: 1300px;
+    }
+    .icon {
+        height: 50px;
+        width: 200px;
+    }
+    .icon-text{
+        height: 200px;
+        padding: 0px 20px;
+    }
+    #services{
+        height: 1800px;
+    }
+
+    .services-box{
+        padding: 0px 20px;
+    }
+
+    .box{
+        height: 200px;
+    }
+
+    #call-to-action{
+        height: 400px;
+    }
+
+    .portfolio-filters ul{
+        
+        flex-wrap: wrap;
+    }
+
+    .portfolio-filters li{
+  margin: 10px;
+
+    }
 }
