@@ -491,6 +491,32 @@ textarea{
 }
 
 
+footer{
+    height: 100px;
+    width: 100%;
+    background: #FFC0CB;    
+    margin: 0;
+
+}
+
+footer p{
+    margin: 0;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #2dc997;
+    text-align: center;
+}
+}
+
+
+
+
+
+
 
 @media (max-width:1400px) {
     #about-us{
