@@ -326,7 +326,7 @@ animation-duration: 1s ;}
 
 
 #portfolio{
-    height: 500px;
+    height: 1000px;
     width: 100%;
     background-color: #f7f7f7;
 }
@@ -350,7 +350,7 @@ animation-duration: 1s ;}
     color: #666666;
     background: white;
     margin: 0px 10px;
-
+    cursor: pointer;
 }
 
 .portfolio-filters li:hover{
@@ -358,6 +358,36 @@ animation-duration: 1s ;}
     color: white;
     transition: 0.2s;
 }
+
+.portfolio-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 700px;
+    margin: 15px;
+    
+}
+
+.portfolio-images {
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+}
+
+.portfolio-images img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
 
 #team{
     height: 500px;
