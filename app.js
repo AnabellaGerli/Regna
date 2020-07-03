@@ -16,7 +16,8 @@ var imagesWeb = document.getElementsByClassName("web")
 
 buttonAll.onclick = () => {
     for (var i=0; i<images.length; i++) {
-        images[i].style.display ="block"
+        
+        images[i].style.display ="block";
     }
 }
 
@@ -26,7 +27,11 @@ buttonApp.onclick = () => {
     }
 
     for (var i=0; i<imagesApp.length; i++) {
-        imagesApp[i].style.display= "block"
+
+        
+        imagesApp[i].style.display= "block";
+        
+        
     }
 }
 

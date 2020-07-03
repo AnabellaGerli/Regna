@@ -2,7 +2,9 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 *{
     box-sizing: border-box;
 }
@@ -216,6 +218,7 @@ animation-duration: 1s ;}
     font-size: 14px;
 }
 
+
 .services-box{
     margin-top: 10px;
     padding: 0px 100px;
@@ -223,7 +226,16 @@ animation-duration: 1s ;}
    flex-direction: row;
    flex-wrap: wrap;
     justify-content: center;
+
+    animation-name: fadein;
+    animation-duration: 3s;
 }
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 
 .box{
     background: #fafafa;
@@ -381,13 +393,13 @@ animation-duration: 1s ;}
     width: 300px;
     height: 200px;
     margin: 5px;
+    transition: 0.3s all ease-in;
 }
 
 .portfolio-images img {
     width: 100%;
     height: auto;
 }
-
 
 
 
